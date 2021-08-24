@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
@@ -21,10 +22,10 @@
             </div>
             <div class="navbar-menu-container">
                 <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About Us</li></a>
-                    <a href="#"><li>Our Team</li></a>
-                    <a href="#"><li>Contact</li></a>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>About Us</li></a>
+                    <a href="#team"><li>Our Team</li></a>
+                    <a href="#contact"><li>Contact</li></a>
                 </ul>
             </div>
             <div class="user-auth-btns">
@@ -33,7 +34,8 @@
             </div>
         </nav>
     </header>
-    <section class="hero">
+    <!-- ==== HERO ==== -->
+    <section class="hero" id="home">
         <div class="hero-pitch">
             <h1 class="hero-slogan">Capture and <span class="higlight">immortalize</span> people you love</h1>
             <p class="pitch-p">Too often we spend time documenting the <span class="keypoint">frivolous</span> and <span class="keypoint">superficial</span>. When we die what part of us lives on in a digital sense? Welcome to Matter, a place where you <span class="keypoint">connect</span> with your loved ones like never before, and truly <span class="keypoint">document</span> yourself as an individual.</p>
@@ -43,7 +45,8 @@
             <img class="hero-img" src="img/image1.jpeg" alt="app-mockup">
         </div>
     </section>
-    <section class="about-us-sect">
+    <!-- ==== ABOUT US ==== -->
+    <section class="about-us-sect" id="about">
         <h1 class="about-title"><span class="higlight">About Us</span></h1>
         <div class="about-us-main">
             <div class="logo-img-container">
@@ -55,7 +58,8 @@
             </div>
         </div>
     </section>
-    <section class="our-team">
+    <!-- ==== OUR TEAM ==== -->
+    <section class="our-team" id="team">
         <div>
             <h1 class="about-title"><span class="higlight">Our Team</span></h1>
         </div>
@@ -77,14 +81,15 @@
                 </div>
               </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/Logo.png" class="card-img-top" alt="...">
+                <img src="img/Dhruv.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Jude</h5>
+                  <h5 class="card-title">Dhruv</h5>
                   <p class="card-text">CTO</p>
                   <a href="#" class="btn btn-primary">Linkedin</a>
                 </div>
               </div>
         </div>
+        <!-- ==== CONTACT ==== -->
         <section class="contact-sect" id="contact">
             <h1 class="about-title"><span class="higlight">Contact</span></h1>
             <div class="contact-container">
@@ -100,6 +105,18 @@
             </div>
         </section>
     </section>
+    <!-- ==== FOOOTER ==== -->
+    <footer class="footer">
+        <p class="footer__title">Matter</p>
+
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/company/mtter/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.instagram.com/mattermore_/" class="footer__icon"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p>&#169; 2021 copyright</p>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
