@@ -172,6 +172,7 @@ li:hover {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .about-title {
@@ -207,3 +208,18 @@ li:hover {
 }
 
 /* #### OUR FOUNDERS #### */
+.our-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.card {
+    text-align: center;
+    margin: 15px;
+}
