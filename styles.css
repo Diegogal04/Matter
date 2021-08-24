@@ -156,3 +156,8 @@ li:hover {
     font-size: 19px;
     margin-top: 30px;
 }
+
+.learn-more-btn:hover {
+    background-color: var(--main-color);
+    color: white;
+}
