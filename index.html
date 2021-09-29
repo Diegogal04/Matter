@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/jpg" href="img/fav-icon-matter.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="img/Logo.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
@@ -125,12 +125,17 @@
             <h1 class="about-title"><span class="higlight">Contact</span></h1>
             <div class="contact-container">
                 <div class="contact-box">
-                <form>
-                    <input type="text" class="input-field" placeholder="Name">
-                    <input type="email" class="input-field" placeholder="Email">
+                <!-- <form action="https://formsubmit.co/mattermembers@gmail.com" method="POST" />
+                    <input type="text" name="name" class="input-field" placeholder="Name">
+                    <input type="email" name="email" class="input-field" placeholder="Email">
                     <textarea class="input-field textarea-field" name="" id="" cols="30" rows="10" placeholder="Feedback"></textarea>
                     <button type="submit" class="contactsub-btn">Submit</button>
-                </form>
+                </form> -->
+                <form action="https://formsubmit.co/mattermembers@gmail.com" method="POST">
+                    <input type="text" name="name" required>
+                    <input type="email" name="email" required>
+                    <button type="submit">Send</button>
+               </form>
             </div>
             </div>
         </section>
